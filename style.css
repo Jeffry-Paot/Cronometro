@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cronometro{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+#crono{
+    color: #fff;
+    font-size: 70px;
+    text-shadow:
+		0 0 4px rgba(0,178,255,1),
+		0 0 8px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 30px rgba(38,104,127,1),
+		0 0 70px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1);
+}
+
+#Boton{
+    background-color: #000000;
+    color:#fff;
+
+    letter-spacing: 4px;
+    font-weight: 600px;
+    font-size: 50px;
+
+    border: none;
+    border-radius: 20px;
+
+    padding:30px;
+
+    text-shadow:
+		0 0 4px #e5d758,
+		0 0 8px #e5d758,
+		0 0 10px #e5d758,
+		0 0 30px rgba(38,104,127,1),
+		0 0 70px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1),
+		0 0 0px rgba(38,104,127,1);
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+  }
